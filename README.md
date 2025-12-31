@@ -1,1 +1,1 @@
-#The Tandon Zine -
+# The Tandon Zine
