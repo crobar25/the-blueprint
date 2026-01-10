@@ -1,0 +1,45 @@
+/* Base styles for The Blueprint */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+
+html,body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: #071a2f; /* dark navy */
+	color: #ffffff;
+	font-family: 'Old Standard TT', Georgia, 'Times New Roman', serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero {
+	text-align: center;
+	padding: 48px 24px;
+}
+.title {
+	font-size: 4.5rem;
+	line-height: 1;
+	margin: 0 0 12px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+.subtitle {
+	font-size: 1.125rem;
+	margin: 0 0 28px;
+	opacity: 0.95;
+}
+.btn {
+	background: #ffffff;
+	color: #071a2f;
+	border: none;
+	padding: 12px 20px;
+	font-size: 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+}
+.btn:hover {
+	opacity: 0.95;
+}
