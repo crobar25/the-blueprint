@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Blueprint</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+  <main class="hero">
+    <h1 class="title">The Blueprint</h1>
+    <p class="subtitle">An NYU Tandon Zine.</p>
+    <a class="btn" id="startSubmission" href="https://script.google.com/a/macros/nyu.edu/s/AKfycbwcSypTHO7nthpmhRlu74Joa29ZqAUiWucqskr_E_w8YsBSqQngNS-5NQVgImVHKai7/exec" target="_blank" rel="noopener">Start a Submission</a>
+  </main>
+</body>
 
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Ensures the body fills the entire viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0a81fe; /* Base blue color */
+    }
+    
+    .blueprint-background {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: #0a81fe; /* Base blue color */
+        
+        /* Create the grid lines using linear gradients */
+        background-image: 
+            /* Vertical lines */
+            linear-gradient(90deg, rgba(255, 255, 255, 0.25) 1px, rgba(0, 0, 0, 0) 1px),
+            /* Horizontal lines */
+            linear-gradient(0deg, rgba(255, 255, 255, 0.25) 1px, rgba(0, 0, 0, 0) 1px);
+            
+        /* Set the size of each grid cell (e.g., 20px x 20px) */
+        background-size: 20px 20px;
+        
+        /* Style the text to resemble blueprint white/light color */
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+    }
+    
+    h1, p {
+        margin-bottom: 1em;
+    }
+    
+    h2 {
+      margin-top: 1px;
+      font-weight: 100;
+    }
+    
+    a { 
+      color: white;
+      font-weight: 100;
+      text-decoration: underline solid transparent;
+      transition: text-decoration 1s ease;
+    }
+    
+    .title { 
+      font-weight: 100;
+      margin-bottom: 1px;
+      text-decoration: solid underline;
+      /* text-decoration: underline solid transparent;
+      transition: text-decoration 1s ease; */
+    }
+    
+    .title-box { 
+      width: fit-content;
+      border: 2px solid white;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    
+      /* margin: 10px; */
+    }
+    
+    a:hover {
+      text-decoration: underline solid Currentcolor;
+    }
+    
+
+  </style>
+</html>
