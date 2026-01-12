@@ -10,12 +10,19 @@ body {
 	color: #ffffff;
 	font-family: 'Old Standard TT', Georgia, 'Times New Roman', serif;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 .hero {
 	text-align: center;
 	padding: 48px 24px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 .title {
 	font-size: 4.5rem;
@@ -42,4 +49,56 @@ body {
 }
 .btn:hover {
 	opacity: 0.95;
+}
+
+.info,
+.faq {
+	width: 100%;
+	max-width: 800px;
+	padding: 48px 24px;
+	box-sizing: border-box;
+}
+
+.info h2,
+.faq h2 {
+	font-size: 2rem;
+	margin: 0 0 24px;
+}
+
+.faq-item {
+	margin-bottom: 32px;
+}
+
+.faq-item h3 {
+	font-size: 1.25rem;
+	margin: 0 0 12px;
+}
+
+.faq-item p {
+	margin: 0;
+	opacity: 0.9;
+}
+
+.scroll-indicator {
+	position: absolute;
+	bottom: 32px;
+	animation: bounce 2s infinite;
+}
+
+.scroll-indicator span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	border-left: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	transform: rotate(-45deg);
+}
+
+@keyframes bounce {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-12px);
+	}
 }
