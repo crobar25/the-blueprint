@@ -1,0 +1,58 @@
+/* Team page styles */
+
+.team-section {
+	width: 100%;
+	padding: 48px 24px;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+
+.team-section h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 0 48px;
+}
+
+.team-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+	gap: 64px;
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-items: center;
+}
+
+.team-member {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+	transform: scale(1.05);
+}
+
+.member-square {
+	width: 180px;
+	aspect-ratio: 1;
+	background: rgba(255, 255, 255, 0.05);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 8px;
+	margin-bottom: 12px;
+	transition: all 0.3s ease;
+}
+
+.team-member:hover .member-square {
+	border-color: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.member-name {
+	margin: 0;
+	font-size: 1.125rem;
+	text-align: center;
+	color: #ffffff;
+}
