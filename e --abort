@@ -1,0 +1,33 @@
+* [33m9d245f5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Edited connor's about me page
+* [33mb75dbea[m Add three versions of the digital zine
+* [33m1bb4c34[m Add zine page and reorganize css files
+* [33m683c50b[m added team member page
+[31m|[m * [33mf896969[m[33m ([m[1;31mthe-blueprint/main[m[33m, [m[1;31mthe-blueprint/HEAD[m[33m)[m Merge branch 'nyu-tandon-zine:main' into main
+[31m|[m[31m/[m[33m|[m 
+[31m|[m *   [33m9fc02dd[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #3 from nyu-tandon-zine/digital-zine
+[31m|[m [34m|[m[35m\[m  
+[31m|[m [34m|[m * [33m5a877cb[m[33m ([m[1;31morigin/digital-zine[m[33m)[m Add three versions of the digital zine
+[31m|[m [34m|[m * [33m9f50a87[m Add zine page and reorganize css files
+[31m|[m [34m|[m[34m/[m  
+[31m|[m *   [33ma78ced8[m Merge pull request #2 from nyu-tandon-zine/sc
+[31m|[m [36m|[m[1;31m\[m  
+[31m|[m [36m|[m * [33m7d0631d[m[33m ([m[1;31mthe-blueprint/sc[m[33m, [m[1;31morigin/sc[m[33m)[m added team member page
+[31m|[m [36m|[m[36m/[m  
+* [36m/[m [33m939ab46[m Create connor_ng
+[36m|[m[36m/[m  
+*   [33mcf8a47f[m[33m ([m[1;31mthe-blueprint/audio-player[m[33m, [m[1;31morigin/audio-player[m[33m)[m Merge pull request #1 from nyu-tandon-zine/team-page
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m3d7e540[m[33m ([m[1;31mthe-blueprint/team-page[m[33m, [m[1;31morigin/team-page[m[33m)[m Add header and team page
+[1;32m|[m[1;32m/[m  
+* [33mfef68e9[m Add footer (and "secret" dev playground)
+* [33mff5fbf9[m Update index.html
+* [33m1dc9874[m Link submission button to google form
+* [33mcf489eb[m Update submissions.html
+* [33m45b0f9c[m Create submissions.html
+* [33m3f7fb2b[m Add title and submission button to index.html
+* [33m969bffb[m original code
+* [33maa53c10[m slight tweak
+* [33m55a7aad[m Add css and js directories
+* [33m362a78a[m Add index.html and assets/
+* [33m8c38d39[m Fix README.md Title
+* [33md95a78e[m Add README.md
